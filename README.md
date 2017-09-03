@@ -2,10 +2,11 @@
 
 ![image](./ForReadme/NatsumatsuriVR.png)
 
+
 ## プレイ動画
 
-[linkname](https://www.youtube.com/watch?v=hg2O0LwIeJg)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hg2O0LwIeJg/0.jpg)](https://www.youtube.com/watch?v=hg2O0LwIeJg)
+
 
 ## プレイ画面
 
@@ -14,9 +15,11 @@
 ![image](./ForReadme/PlayScene3.png)
 ![image](./ForReadme/PlayScene4.png)
 
+
 ## 目標
 
 自分の最近ハマっているVRで、開発の特訓としてPCベースで一つのゲームを完成させたい
+
 
 ## 制作進捗
 
@@ -34,6 +37,7 @@ VRTKのバグ修正：必要
 
 夏祭りに来ている人々を何かしらで表現したい（がこれ以上動作重くしたくない）
 
+
 ## 概要
 
 ここは花火大会の行われる海沿い。立ち並ぶ屋台に1人で来たあなたの周りはカップルやグループで来てる人たちだらけ…なんだか自分だけ周りから見ると浮いてるみたい…。
@@ -47,6 +51,7 @@ VRTKのバグ修正：必要
 １. 金魚すくい	・・・飛んでくる金魚を網ですくえ。
 ２. 射的		・・・出てくる的を銃で打ち抜け。
 ３. 水風船避け	・・・ヨーヨーを釣るのではない。割らずによけろ。
+
 
 ## 操作説明
 
