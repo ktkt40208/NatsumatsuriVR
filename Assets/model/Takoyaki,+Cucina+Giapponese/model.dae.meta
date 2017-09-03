@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: f878422ecedb9ef468fb20f72f059b15
+timeCreated: 1503761708
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Ciotola-01
+    100002: group_0
+    100004: instance_0
+    100006: instance_1
+    100008: instance_10
+    100010: instance_11
+    100012: instance_12
+    100014: instance_2
+    100016: instance_3
+    100018: instance_4
+    100020: instance_5
+    100022: instance_6
+    100024: instance_7
+    100026: instance_8
+    100028: instance_9
+    100030: //RootNode
+    100032: Salsa-01
+    100034: skp9CFB
+    100036: skp9CFB 1
+    100038: skp9CFB 2
+    100040: skp9CFB 3
+    100042: skp9CFB 4
+    100044: skp9CFB 5
+    100046: skp9CFB 6
+    100048: skp9CFB 7
+    100050: skp9CFB 8
+    100052: skp9CFB 9
+    100054: skp_camera_Last_Saved_SketchUp_View
+    100056: Vaschetta-01
+    400000: Ciotola-01
+    400002: group_0
+    400004: instance_0
+    400006: instance_1
+    400008: instance_10
+    400010: instance_11
+    400012: instance_12
+    400014: instance_2
+    400016: instance_3
+    400018: instance_4
+    400020: instance_5
+    400022: instance_6
+    400024: instance_7
+    400026: instance_8
+    400028: instance_9
+    400030: //RootNode
+    400032: Salsa-01
+    400034: skp9CFB
+    400036: skp9CFB 1
+    400038: skp9CFB 2
+    400040: skp9CFB 3
+    400042: skp9CFB 4
+    400044: skp9CFB 5
+    400046: skp9CFB 6
+    400048: skp9CFB 7
+    400050: skp9CFB 8
+    400052: skp9CFB 9
+    400054: skp_camera_Last_Saved_SketchUp_View
+    400056: Vaschetta-01
+    2000000: skp_camera_Last_Saved_SketchUp_View
+    2300000: Ciotola-01
+    2300002: Salsa-01
+    2300004: skp9CFB
+    2300006: skp9CFB 1
+    2300008: skp9CFB 2
+    2300010: skp9CFB 3
+    2300012: skp9CFB 4
+    2300014: skp9CFB 5
+    2300016: skp9CFB 6
+    2300018: skp9CFB 7
+    2300020: skp9CFB 8
+    2300022: skp9CFB 9
+    2300024: Vaschetta-01
+    3300000: Ciotola-01
+    3300002: Salsa-01
+    3300004: skp9CFB
+    3300006: skp9CFB 1
+    3300008: skp9CFB 2
+    3300010: skp9CFB 3
+    3300012: skp9CFB 4
+    3300014: skp9CFB 5
+    3300016: skp9CFB 6
+    3300018: skp9CFB 7
+    3300020: skp9CFB 8
+    3300022: skp9CFB 9
+    3300024: Vaschetta-01
+    4300000: Salsa-01
+    4300002: Ciotola-01
+    4300004: skp9CFB
+    4300006: Vaschetta-01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

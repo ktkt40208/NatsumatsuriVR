@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 770a95e28ab5ae541b33d4b9e3a5ed5e
+timeCreated: 1504461941
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 851CHIKARA-DZUYOKU-KANA-A
+  fontNames:
+  - 851CHIKARA-DZUYOKU-KANA-A
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
