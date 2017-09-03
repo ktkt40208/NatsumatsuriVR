@@ -2,9 +2,12 @@
 
 ![image](./ForReadme/NatsumatsuriVR.png)
 
-## プレイ画面
+## プレイ動画
+
 [linkname](https://www.youtube.com/watch?v=hg2O0LwIeJg)
-https://www.youtube.com/watch?v=hg2O0LwIeJg
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hg2O0LwIeJg/0.jpg)](https://www.youtube.com/watch?v=hg2O0LwIeJg)
+
+## プレイ画面
 
 ![image](./ForReadme/PlayScene1.png)
 ![image](./ForReadme/PlayScene2.png)
