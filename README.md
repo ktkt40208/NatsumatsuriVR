@@ -3,13 +3,17 @@
 ![image](./ForReadme/NatsumatsuriVR.png)
 
 ## プレイ画面
+{% youtube hg2O0LwIeJg %}
 https://www.youtube.com/watch?v=hg2O0LwIeJg
 
-![image](./ForReadme/NatsumatsuriVR.png)
-![image](./ForReadme/NatsumatsuriVR.png)
-![image](./ForReadme/NatsumatsuriVR.png)
-![image](./ForReadme/NatsumatsuriVR.png)
+![image](./ForReadme/PlayScene1.png)
+![image](./ForReadme/PlayScene2.png)
+![image](./ForReadme/PlayScene3.png)
+![image](./ForReadme/PlayScene4.png)
 
+## 目標
+
+自分の最近ハマっているVRで、開発の特訓としてPCベースで一つのゲームを完成させたい
 
 ## 制作進捗
 
