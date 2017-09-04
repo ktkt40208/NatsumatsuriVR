@@ -120,3 +120,9 @@ Unityとの連携はこちらを参考にしました。
 windows10のPCへのBluetooth接続に関しては、以下のサイトの追記部分のリンクからダウンロードできるwin8.1向けにコンパイル済みのwiipermpair2を用い接続に成功しました。
 
 http://tyche.pu-toyama.ac.jp/~a-urasim/wiimote/
+
+![image](./ForReadme/BluetoothWiiConnected.png)
+
+
+### ビルド済みプロジェクトについて
+HTC vive を接続したVRreadyのPCでNatsumatsuriVR_BuildData.zipを解凍した中にあるNatsumatsuriVR.exeを起動してください。 Balance wii Boardが無くても動作はしてプレイできますが移動ができません。
