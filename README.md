@@ -14,6 +14,8 @@
 ![image](./ForReadme/PlayScene2.png)
 ![image](./ForReadme/PlayScene3.png)
 ![image](./ForReadme/PlayScene4.png)
+![image](./ForReadme/PlayingPeople1.png)
+![image](./ForReadme/PlayingPeople2.png)
 
 
 
