@@ -312,7 +312,7 @@
 
         protected virtual void Scroll(VRTK_UIPointer pointer, List<RaycastResult> results)
         {
-            pointer.pointerEventData.scrollDelta = pointer.controller.GetTouchpadAxis();
+            //pointer.pointerEventData.scrollDelta = pointer.controller.GetTouchpadAxis();
             var scrollWheelVisible = false;
             foreach (RaycastResult result in results)
             {

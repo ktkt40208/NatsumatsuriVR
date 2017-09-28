@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour {
 
@@ -30,7 +31,7 @@ public class GameMaster : MonoBehaviour {
         scoreText.text = "得点: " + score.ToString();
         BodyWeightText.text = "BodyWeight: " + bodyweight.ToString();
 
-        if (targethit == true && kingyohit == true && baloonhit == true) {
+        if (Caption2 != null && SceneManager.GetActiveScene().name == "Start" && targethit == true && kingyohit == true && baloonhit == true) {
             Caption2.SetActive(true);
         }
 
