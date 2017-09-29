@@ -13,7 +13,7 @@ public class WaterBallHitAddScore : MonoBehaviour {
 
     AudioSource HitAudio;                           // Reference to the audio source.  
 
-    GameObject childObject;
+    GameObject waterEffect;
 
 
     // Use this for initialization
@@ -23,8 +23,8 @@ public class WaterBallHitAddScore : MonoBehaviour {
         HitAudio = GetComponent<AudioSource>();
 
         //parentObject(GameObject)の子要素(GameObject)取得
-        childObject = transform.Find("waterEffect").gameObject;
-
+        waterEffect = transform.Find("waterEffect").gameObject;
+        waterEffect.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class WaterBallHitAddScore : MonoBehaviour {
             //Instantiate(ScorePopUp, hitPos, Quaternion.identity);
 
             //水のエフェクトをオン
-            childObject.SetActive(true);
+            waterEffect.GetComponent<SpriteRenderer>().enabled = true;
             Invoke("DelayMethod", 1.0f);
 
 
@@ -57,7 +57,7 @@ public class WaterBallHitAddScore : MonoBehaviour {
 
     void DelayMethod()
     {
-        childObject.SetActive(false);
+        waterEffect.GetComponent<SpriteRenderer>().enabled = false;
 
     }
 }

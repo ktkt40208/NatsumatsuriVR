@@ -55,7 +55,7 @@ public class BalanceBoardDataList
 		//Debug.LogWarning(stArryData[0]);
 		//Debug.Log("個数："+ stArryData.Length+"要素数:"+(int)WiiBalanceBoardInfo.EnumMaxNumber);
 		if(stArryData.Length < (int)BalanceBoardInfo.EnumMaxNumber){
-			Debug.LogError("メッセージのデータ個数が不正です。データを破棄します。 個数："+ stArryData.Length+"正しい要素数:"+(int)BalanceBoardInfo.EnumMaxNumber);
+			//Debug.LogError("メッセージのデータ個数が不正です。データを破棄します。 個数："+ stArryData.Length+"正しい要素数:"+(int)BalanceBoardInfo.EnumMaxNumber);
 			//データ個数が不正
 			return false;
 		}

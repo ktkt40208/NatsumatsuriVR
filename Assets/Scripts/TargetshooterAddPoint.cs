@@ -48,7 +48,7 @@ public class TargetshooterAddPoint : MonoBehaviour {
             Instantiate(AudioHit, hitPos, Quaternion.identity);
             Destroy(this.gameObject);
 
-            if (SceneManager.GetActiveScene().name == "VRTK_VRflying") { // hogehogeシーンでのみやりたい処理
+            if (SceneManager.GetActiveScene().name == "VRTK_VRflying") { 
                 GameController.GetComponent<GameMaster>().calcScore(10);
                 //Debug.Log(GameController.GetComponent<GameMaster>().score);
                 Debug.Log(GameController.GetComponent<GameMaster>().getScore().ToString());
@@ -67,12 +67,34 @@ public class TargetshooterAddPoint : MonoBehaviour {
                 clone.transform.LookAt(Camera.main.transform.position);
                 GameController.GetComponent<GameMaster>().targethit = true;
             }
-
-
-
-
         }
 
+        if (other.gameObject.CompareTag("Target2")) {
+            Destroy(other.gameObject);
+            Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+            Instantiate(AudioHit, hitPos, Quaternion.identity);
+            Destroy(this.gameObject);
+
+            if (SceneManager.GetActiveScene().name == "VRTK_VRflying") {
+                GameController.GetComponent<GameMaster>().calcScore(50);
+                //Debug.Log(GameController.GetComponent<GameMaster>().score);
+                Debug.Log(GameController.GetComponent<GameMaster>().getScore().ToString());
+                Debug.Log("当てた！");
+                //ScorePopUpText.GetComponent<TMP_Text>().text = GameController.GetComponent<GameMaster>().score.ToString();
+                //ScorePopUpText.GetComponent<TMP_Text>().text = GameController.GetComponent<GameMaster>().score.ToString();
+                ScorePopUpText.GetComponent<TMP_Text>().text = "+50";
+
+                //TextMeshProScore.SetText(label, score);
+
+                Instantiate(ScorePopUp, hitPos, Quaternion.identity);
+
+            }
+            else { // それ以外のシーンでやりたい処理
+                clone = (GameObject)Instantiate(Circle, hitPos, Quaternion.identity);
+                clone.transform.LookAt(Camera.main.transform.position);
+                GameController.GetComponent<GameMaster>().targethit = true;
+            }
+        }
         if (other.gameObject.CompareTag("Baloon")) {
             //bleakwaterクラスによりbulletタグによって破壊される
             //Destroy(other.gameObject);

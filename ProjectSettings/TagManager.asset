@@ -15,6 +15,7 @@ TagManager:
   - HanabiTrigger2
   - HanabiTrigger3
   - startscene
+  - Target2
   layers:
   - Default
   - TransparentFX

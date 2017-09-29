@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TargetGenerator : MonoBehaviour {
 
-    public GameObject targets;
+    public GameObject targets1;
+    public GameObject targets2;
     public Transform player;
     float delta = 0;
     float span;
@@ -22,59 +23,59 @@ public class TargetGenerator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.delta += Time.deltaTime;
-        this.time += Time.deltaTime;
+        delta += Time.deltaTime;
+        time += Time.deltaTime;
 
    //音楽に合わせた制御
-        if (this.time < 19)
+        if (time < 19)
         {
             span = 4f;
         }
-        else if (this.time < 39)
+        else if (time < 39)
         {
             span = 3.0f;
         }
-        else if (this.time < 55)
+        else if (time < 55)
         {
             span = 2f;
         }
-        else if (this.time < 61)
+        else if (time < 61)
         {
             span = 3.0f;
         }
-        else if (this.time < 91)
+        else if (time < 91)
         {
             span = 2f;
         }
-        else if (this.time < 106)
+        else if (time < 106)
         {
             span = 1.5f;
         }
-        else if (this.time < 121)
+        else if (time < 121)
         {
             span = 1f;
         }
-        else if (this.time < 140)
+        else if (time < 140)
         {
             span = 4f;
         }
-        else if (this.time < 160)
+        else if (time < 160)
         {
             span = 3.0f;
         }
-        else if (this.time < 176)
+        else if (time < 176)
         {
             span = 2f;
         }
-        else if (this.time < 182)
+        else if (time < 182)
         {
             span = 3.0f;
         }
-        else if (this.time < 212)
+        else if (time < 212)
         {
             span = 2f;
         }
-        else if (this.time < 227)
+        else if (time < 227)
         {
             span = 1.5f;
         }
@@ -83,9 +84,9 @@ public class TargetGenerator : MonoBehaviour {
             span = 1f;
         }
 
-        if (this.delta > this.span)
+        if (delta > span)
         {
-            this.delta = 0;
+            delta = 0;
             for (int i = 1; i <= 2; i++)
             {
                 Generate();
@@ -96,7 +97,7 @@ public class TargetGenerator : MonoBehaviour {
     void Generate()
     {
         int x = Random.Range(0, 4);
-        float z = player.position.z + 10; //プレイヤーから少し離れた所に生成
+        float z = player.position.z + Random.Range(9.5f, 10.5f); //プレイヤーから少し離れた所に生成
 
         if (x == 0) //屋台の左右をランダムに設定
         {
@@ -114,7 +115,15 @@ public class TargetGenerator : MonoBehaviour {
         {
             which = -4;
         }
-        GameObject target = Instantiate(targets) as GameObject;
-        target.transform.position = new Vector3(which, 2, z);
+
+        int selectTargetSeed = Random.Range(0, 6);
+        if (selectTargetSeed == 0 && time > 120) {
+            GameObject target = Instantiate(targets2) as GameObject;
+            target.transform.position = new Vector3(which, 2, z);
+        }
+        else {
+            GameObject target = Instantiate(targets1) as GameObject;
+            target.transform.position = new Vector3(which, 2, z);
+        }
     }
 }

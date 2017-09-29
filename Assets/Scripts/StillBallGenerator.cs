@@ -28,13 +28,13 @@ public class StillBallGenerator : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        this.delta += Time.deltaTime;
-        this.time += Time.deltaTime;
-        if (this.time < 30)
+        delta += Time.deltaTime;
+        time += Time.deltaTime;
+        if (time < 30)
         {
             span = 4f;
         }
-        else if (this.time < 60)
+        else if (time < 60)
         {
             span = 3f;
         }
@@ -43,9 +43,9 @@ public class StillBallGenerator : MonoBehaviour {
             span = 2f;
         }
 
-        if (this.delta > this.span)
+        if (delta > span)
         {
-            this.delta = 0;
+            delta = 0;
             for (int i = 1; i <= 3; i++)
             {
                 generate();
@@ -57,7 +57,7 @@ public class StillBallGenerator : MonoBehaviour {
     {
         float x = Random.Range(-4f, 5f);
         float y = Random.Range(1f, 8f);
-        //float z = Random.Range(10f, 16f);
+        float z = Random.Range(8f, 12f);
         int color = Random.Range(0, 5);
         GameObject ball;
         if (color == 0)
@@ -80,6 +80,6 @@ public class StillBallGenerator : MonoBehaviour {
         {
             ball = Instantiate(Ball4) as GameObject;
         }
-        ball.transform.position = new Vector3(x, y, 10 + player.position.z);
+        ball.transform.position = new Vector3(x, y, z + player.position.z);
     }
 }
